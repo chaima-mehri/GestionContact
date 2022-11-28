@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ajout">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="429dp"
+        android:layout_height="286dp"
+        app:layout_constraintDimensionRatio="h,16:9"
+        app:srcCompat="@drawable/cap_ajout" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/st_titre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajout"
+        android:textColor="#1B2E35"
+        android:textStyle="normal" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        />
+
+    <EditText
+        android:id="@+id/ednom_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#951B2E35"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHighlight="#1B2E35"
+        android:textColorLink="#1B2E35" />
+
+    <EditText
+        android:id="@+id/edlastname_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#801B2E35"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHighlight="#1B2E35"
+        android:textColorLink="#1B2E35" />
+
+    <EditText
+        android:id="@+id/edphone_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7E1B2E35"
+        android:ems="10"
+        android:hint="phone number"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColorHighlight="#1B2E35"
+        android:textColorLink="#1B2E35"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnaj_ajout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1B2E35"
+            android:gravity="center_horizontal"
+            android:text="Ajout" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="5dp" />
+
+        <Button
+            android:id="@+id/btncan_ajout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FE4F5A"
+            android:gravity="center_horizontal"
+            android:text="Cancel" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        />
+
+</LinearLayout>

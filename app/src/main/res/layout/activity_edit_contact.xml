@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Edit_contact">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="447dp"
+        android:layout_height="276dp"
+        app:srcCompat="@drawable/cap_1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/st_titre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        />
+
+    <EditText
+        android:id="@+id/ednom_edit_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E0E0E0"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHighlight="#385A64"
+        android:textColorLink="#385A64" />
+
+    <EditText
+        android:id="@+id/edlastname_edit_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A359727A"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHighlight="#385A64"
+        android:textColorLink="#385A64"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btned_edit_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#385A64"
+            android:gravity="center_horizontal"
+            android:text="Edit" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btncan_edit_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FE735C"
+            android:gravity="center_horizontal"
+
+            android:text="Cancel" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        />
+
+</LinearLayout>

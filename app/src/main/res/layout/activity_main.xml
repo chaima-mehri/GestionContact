@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="422dp"
+        android:layout_height="223dp"
+        app:srcCompat="@drawable/cap2" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/st_titre1"
+        android:text="Authentification" />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+         />
+
+    <EditText
+        android:id="@+id/ednom_auth"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Saisir votre nom"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#645E38"
+        android:textColorLink="#385A64"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edemail_auth"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Saisir votre email"
+        android:inputType="textEmailAddress"
+        android:textColorHighlight="#385A64"
+        android:textColorLink="#385A64"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edmp_auth"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Saisir votre mot de passe"
+        android:textColorHighlight="#385A64"
+        android:textColorLink="#385A64"
+        android:inputType="numberPassword"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnval_auth"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#385A64"
+            android:lineSpacingExtra="12sp"
+            android:text="Valider" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnqte_auth"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FE735C"
+            android:text="Quitter"
+            android:textColor="#F2F1F6" />
+    </LinearLayout>
+
+</LinearLayout>
